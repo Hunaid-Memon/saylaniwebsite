@@ -1,0 +1,267 @@
+
+.head{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+      
+}
+.link{ 
+    padding: 6px;
+    margin: 2px;
+    cursor: pointer;
+    align-content: center;
+}
+.l{
+    padding: 14px;
+}
+.p{
+    color: white;
+}
+.but{
+    padding: 6px;
+    margin: 9px;
+    cursor: pointer;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+/*Buttons*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+ /* text */ 
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+/* The dots */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+/*fade*/
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.int,.logo1{
+    color: blue;
+    text-align: center;
+}
+.para{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+  }
+.a{
+    display: flex;
+    justify-content: space-around;
+}
+
+.infor{
+    background-color: blue;
+    height: 300px;
+    justify-content: space-around;
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+.inf{
+    color: white;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 60px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.doing{
+    color: blue;
+    width: 30%;   
+}
+.do{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+    border: 2px solid lightgray;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+.second{
+    border: 2px solid lightgray;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+   
+}
+.third{
+    border: 2px solid lightgray;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+   
+}
+
+.first_three,.second_three{
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+    text-align: center;
+}
+
+.forth{
+    border: 2px solid lightgray;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+.fifth{
+    border: 2px solid lightgray;
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white; 
+}
+.sixth{
+    border: 2px solid lightgray;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;  
+}
+.main{
+    background-color: white;
+    display: flex;
+
+}
+.h{
+    color: blue;
+    padding-left: 60px;
+    text-decoration: underline black;
+    
+}
+.h2{
+    color: blue;
+    padding-left: 500px;
+    text-decoration: underline black;
+    
+}
+
+.main1,.main2{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.hp{
+    border: 1px solid rgb(245, 243, 243);;
+    padding-left: 20px;
+    padding-right: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(248, 247, 247);
+}
+.hs{
+    border: 1px solid rgb(245, 243, 243);;
+    padding-left: 20px;
+    padding-right: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(248, 247, 247);
+}
+.it{
+    border: 1px solid rgb(245, 243, 243);;
+    padding-left: 20px;
+    padding-right: 170px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(248, 247, 247);
+}
+.th{
+    border: 1px solid rgb(245, 243, 243);;
+    padding-left: 25px;
+    padding-right: 225px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(248, 247, 247);
+}
+
+
+
+
+
+
+.mn{
+    background-color: white;
+}
